@@ -1,22 +1,9 @@
-<div id="app">
-	<canvas width="1080" height="800"></canvas>
-
-	<div id="hovermove">
-		<h1> Domain For Sale </h1>
-		<form action="mailto:mohamedelbouti@outlook.fr" method="post" enctype="text/plain">
-			<label for="name">Your Name:</label>
-			<input type="text" id="name" name="name" required>
-
-			<label for="email">Your Email:</label>
-			<input type="email" id="email" name="email" required>
-
-			<label for="message">Your Message:</label>
-			<textarea id="message" name="message" required></textarea>
-
-			<button type="submit">Send</button>
-		</form>
-
-		<style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain For Sale</title>
+    <link rel="stylesheet" href="css/style.css">
+			<style>
 			form {
 				display: flex;
 				flex-direction: column;
@@ -63,7 +50,32 @@
 				background: #0056b3;
 			}
 		</style>
+</head>
+<div id="app">
+	<canvas width="1080" height="800"></canvas>
+
+	<div id="hovermove">
+		<h1> Domain For Sale </h1>
+		<form action="mailto:mohamedelbouti@outlook.fr" method="post" enctype="text/plain">
+			<label for="name">Your Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Your Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="message">Your Message:</label>
+			<textarea id="message" name="message" required></textarea>
+
+			<button type="submit">Send</button>
+		</form>
+
+
 
 	</div>
 
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<script src="https://long-beam.surge.sh/glslCanvas.js"></script>
+<script src="js/script.js"></script>
+<script src="js/scripts.js"></script>
+</body>
